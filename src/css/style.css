@@ -1,0 +1,25 @@
+:root {
+  --JetBlack: #343434;
+  --Onyx: #353935;
+  --MatteBlack: #28282B;
+  --Licorice: #1B1212;
+  --OffWhite: #FAF9F6;
+  --Whitest: #fff;
+}
+
+
+.list-group-item-darkest {
+  background-color: var(--Onyx);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--MatteBlack);
+  color: var(--OffWhite);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.list-group-item-darkest:hover {
+  background-color: var(--MatteBlack);
+  border-color: var(--Licorice);
+  color: var(--Whitest);
+}
