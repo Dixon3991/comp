@@ -58,15 +58,22 @@
 <!-- Main Content Section -->
 <div class="container">
 
+  <!-- Audio Player -->
   <div class="row m-2 p-2">
 
-    <div class="col-12">
-      <!-- Wave Surfer Audio Player -->
-      <div id="waveform">
+    <div class="col-12 col-sm-6 col-md-4">
+      <!-- Song Title and Data -->
+      <div id="audio-card" class="card mb-1 pb-1 align-items-center">
+        <div class="card-body">
+          <h3>Song Title</h3>
+          <h6>By Author Name</h6>
+        </div>
       </div>
-      <!-- Audio Player Controls -->
-      <div class="controls">
-        <button class="btn btn-primary" data-action="play">
+
+
+      <!-- Audio Controls -->
+      <div class="controls d-flex align-items-center justify-content-center mb-1 pb-1">
+        <button class="btn-audio btn" data-action="play">
           <span id="controlAudioBtn" class="fa fa-play-circle-o"></span>
           <p class="visually-hidden">
             Audio Controls Play/Pause Buttons
@@ -75,14 +82,20 @@
       </div>
     </div>
 
+    <div class="col-12 col-sm-6 col-md-8 d-flex align-items-center justify-content-center">
+      <!-- Wave Surfer JS (Audio Wave Visualization) -->
+      <div id="waveform">
+      </div>
+    </div>
+
   </div>
 
 
   <!-- Assorted Audio Layer -->
-  <div id="assortedAudioLayer" class="row p-2">
+  <div id="assortedAudioLayer" class="row p-2 pt-4">
 
       <!-- Categories / Menu of Audio Layer Groups -->
-      <div id="audioGroupLayer" class="col-6">
+      <div id="audioGroupLayer" class="col-6 col-md-3">
         <div class="list-group list-group-flush">
           <!-- Begin Category / Group Options -->
 
@@ -138,7 +151,7 @@
     </div>
 
       <!-- Audio Files  Corresponding to Assorted Audio Layer Menu -->
-      <div id="audioFileLayer" class="col-6 mt-1">
+      <div id="audioFileLayer" class="col-6 col-md-8 mt-1">
 
         <!-- Drums Files -->
         <div id="cymbalsFiles" class="collapse" data-bs-parent="#audioFileLayer">
