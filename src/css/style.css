@@ -39,6 +39,7 @@ Color Name Acknowledgements:
 
 
 /* Assorted Audio Layer / Menu */
+
 #audioGroupLayer {
   font-weight: 600;
   text-transform: uppercase;
@@ -47,8 +48,6 @@ Color Name Acknowledgements:
   border-top-width: 1px;
   border-top-style: solid;
 }
-
-
 
 .list-group-item-darkest {
   background-color: var(--WoodSmoke);
@@ -82,6 +81,7 @@ Color Name Acknowledgements:
   border-color: var(--GunPowder);
   color: var(--GhostWhite);
 }
+
 .list-group-item-sub:focus {
   background-color: var(--BalticSea);
   border-color: var(--GunPowder);
