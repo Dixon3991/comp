@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Load audio from URL
-    wavesurfer.load('../assets/audio/rain.ogg');
+    wavesurfer.load('../tmp/audio/rain.ogg');
 
     // toggle play button
     document
