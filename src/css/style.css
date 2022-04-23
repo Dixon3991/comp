@@ -7,77 +7,86 @@ body, html {
 }
 
 
+/*
+Color Name Acknowledgements:
+
+  - "Name That Color" ( https://chir.ag/projects/name-that-color/#0C0C0D )
+  - "HTMLCSSColor" ( https://www.htmlcsscolor.com/hex/151517 )
+  - "Dopely Colors" ( https://colors.dopely.top/color-pedia )
+*/
 
 :root {
-  --MatteBlackOne: #020202;
-  --MatteBlackTwo: #0c0c0d;
-  --MatteBlackThree: #151517;
-  --MatteBlackFour: #1f1f21;
-  --MatteBlackFive: #28282b;
-  --MatteBlackSix: #313135;
-  --MatteBlackSeven: #3b3b3f;
-  --MatteBlackEight: #444449;
-  --MatteBlackNine: #4e4e54;
-  --MatteBlackTen: #57575e;
-  --MatteBlackEleven: #616168;
-  --MatteBlackTwelve: #6a6a72;
-  --MatteBlackThirteen: #74747c;
-  --MatteWhiteOne: #d9d9db;
-  --MatteWhiteTwo: #ededee;
-  --MatteWhite: #f7f7f8;
+  /* Black Shades */
+  --BlackVoid: #020202;
+  --WoodSmoke: #0c0c0d;
+  --BlackPrussian: #151517;
+  --Shark: #1f1f21;
+  --Jaguar: #28282b;
+  --Bastille: #313135;
+  /* Grey Shades */
+  --BalticSea: #3b3b3f;
+  --PaynesGrey: #444449;
+  --GunPowder: #4e4e54;
+  --StormGrey: #74747c;
+  /* White Shades */
+  --WhiteLilac: #d9d9db;
+  --AthensGrey: #ededee;
+  --GhostWhite: #f7f7f8;
+  --Iron: #dfe0e1;
+  --Solitude: #f8f9fa;
 }
 
 /* Assorted Audio Menu */
 
 .list-group-item-darkest {
-  background-color: var(--MatteBlackTwo);
+  background-color: var(--WoodSmoke);
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: var(--MatteBlackOne);
-  color: var(--MatteWhite);
+  border-color: var(--BlackVoid);
+  color: var(--GhostWhite);
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .list-group-item-darkest:hover {
-  background-color: var(--MatteBlackThree);
-  border-color: var(--MatteBlackFive);
-  color: var(--MatteWhiteOne);
+  background-color: var(--BlackPrussian);
+  border-color: var(--Jaguar);
+  color: var(--WhiteLilac);
 }
 
 
 
 .list-group-item-sub-darkest {
-  background-color: var(--MatteBlackFour);
+  background-color: var(--Shark);
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: var(--MatteBlackSix);
+  border-color: var(--Bastille);
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--MatteWhiteTwo);
+  color: var(--AthensGrey);
 }
 
 
 .list-group-item-sub-darkest:hover {
-  background-color: var(--MatteBlackFive);
-  border-color: var(--MatteBlackFour);
-  color: var(--MatteWhite);
+  background-color: var(--Jaguar);
+  border-color: var(--Shark);
+  color: var(--GhostWhite);
 }
 
 /* Sub Categories of Assorted Audio (Menu) */
 
 .list-group-item-sub {
-  background-color: var(--MatteBlackEight);
+  background-color: var(--GhostWhite);
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: var(--MatteBlackSix);
+  border-color: var(--PaynesGrey);
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--MatteWhiteTwo);
+  color: var(--Bastille);
 }
 
 .list-group-item-sub:hover {
-  background-color: var(--MatteBlackTen);
-  border-color: var(--MatteBlackSeven);
-  color: var(--MatteWhite);
+  background-color: var(--StormGrey);
+  border-color: var(--GunPowder);
+  color: var(--GhostWhite);
 }
