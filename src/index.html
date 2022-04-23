@@ -48,6 +48,13 @@
 
 <!-- Main Content Section -->
 <div class="container">
+  
+  <!-- Audio Player -->
+  <div class="row m-2">
+    <div class="col-12">
+      <div id="waveform"></div>
+    </div>
+  </div>
 
 
   <!-- Assorted Audio Layer -->
@@ -69,8 +76,20 @@
           <!-- Vocals Layer -->
           <a href="#vocalsLayer" class="list-group-item list-group-item-action list-group-item-darkest" data-bs-toggle="collapse">Vocals</a>
           <div id="vocalsLayer" class="list-group list-group-flush collapse" data-bs-parent="#audioGroupLayer">
-            <a id="maleVocalsLayer" href="#maleVocalsFiles" class="list-group-item list-group-item-action list-group-item-sub" data-bs-toggle="collapse">Male</a>
-            <a id="femaleVocalsLayer" href="#femaleVocalsFiles" class="list-group-item list-group-item-action list-group-item-sub" data-bs-toggle="collapse">Female</a>
+            <a id="maleVocalsLayer" href="#maleVocalSubCats" class="list-group-item list-group-item-action list-group-item-sub" data-bs-toggle="collapse">Male</a>
+            <div id="maleVocalSubCats" class="list-group list-group-flush collapse" data-bs-parent="#vocalsLayer">
+              <a id="maleDryVocals" href="#maleDryVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Dry</a>
+              <a id="maleWetVocals" href="#maleWetVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Wet</a>
+            </div>
+
+
+            <a id="femaleVocalsLayer" href="#femaleVocalSubCats" class="list-group-item list-group-item-action list-group-item-sub" data-bs-toggle="collapse">Female</a>
+            <div id="femaleVocalSubCats" class="list-group list-group-flush collapse" data-bs-parent="#vocalsLayer">
+              <a id="femaleDryVocals" href="#femaleDryVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Dry</a>
+              <a id="femaleWetVocals" href="#femaleWetVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Wet</a>
+            </div>
+              
+            
             
         </div>
         
@@ -132,14 +151,25 @@
         
         
         <!-- Vocals Files  -->
-        <div id="maleVocalsFiles" class="collapse" data-bs-parent="#audioFileLayer">
+        <!-- Male Vocal Files -->
+        <div id="maleDryVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
         </div>
-         <div id="femaleVocalsFiles" class="collapse" data-bs-parent="#audioFileLayer">
-            <span class="material-symbols-outlined">description</span>
-            <span class="material-symbols-outlined">description</span>
-            <span class="material-symbols-outlined">description</span>
+        <div id="maleWetVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
+             
+          <span class="material-symbols-outlined">description</span>
+          <span class="material-symbols-outlined">description</span>
+        </div>
+       <!-- Female Vocals Files -->
+       <div id="femaleDryVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
+          <span class="material-symbols-outlined">description</span>
+          <span class="material-symbols-outlined">description</span>
+          <span class="material-symbols-outlined">description</span>
+       </div>
+       <div id="femaleWetVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
+           <span class="material-symbols-outlined">description</span>
+           <span class="material-symbols-outlined">description</span>
         </div>
         <!-- End Vocal Files -->
         
@@ -218,8 +248,12 @@
 
 <!-- Bootstrap 5 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+<!-- WaveSurfer JS (Audio Player) -->
+<script src="https://unpkg.com/wavesurfer.js"></script>
 
 <!-- External Script *in js directory* -->
+<script src="js/audioplayer.js"></script>
 <script src="js/script.js"></script>
 
 </body>
