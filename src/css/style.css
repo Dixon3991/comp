@@ -36,57 +36,54 @@ Color Name Acknowledgements:
   --Solitude: #f8f9fa;
 }
 
-/* Assorted Audio Menu */
+
+
+/* Assorted Audio Layer / Menu */
+#audioGroupLayer {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#audioGroupLayer > div > a[class^="list-group-item"] {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+
 
 .list-group-item-darkest {
   background-color: var(--WoodSmoke);
-  border-top-width: 1px;
-  border-top-style: solid;
   border-color: var(--BlackVoid);
-  color: var(--GhostWhite);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.list-group-item-darkest:hover {
-  background-color: var(--BlackPrussian);
-  border-color: var(--Jaguar);
   color: var(--WhiteLilac);
 }
 
-
-
-.list-group-item-sub-darkest {
+.list-group-item-darkest:hover {
   background-color: var(--Shark);
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-color: var(--Bastille);
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--AthensGrey);
-}
-
-
-.list-group-item-sub-darkest:hover {
-  background-color: var(--Jaguar);
-  border-color: var(--Shark);
+  border-color: var(--WoodSmoke);
   color: var(--GhostWhite);
 }
+
+.list-group-item-darkest:focus {
+  background-color: var(--Shark);
+  border-color: var(--WoodSmoke);
+  color: var(--GhostWhite);
+}
+
 
 /* Sub Categories of Assorted Audio (Menu) */
 
 .list-group-item-sub {
-  background-color: var(--GhostWhite);
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-color: var(--PaynesGrey);
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--Bastille);
+  background-color: var(--Bastille);
+  border-color: var(--Shark);
+  color: var(--Solitude);
 }
 
 .list-group-item-sub:hover {
-  background-color: var(--StormGrey);
+  background-color: var(--BalticSea);
+  border-color: var(--GunPowder);
+  color: var(--GhostWhite);
+}
+.list-group-item-sub:focus {
+  background-color: var(--BalticSea);
   border-color: var(--GunPowder);
   color: var(--GhostWhite);
 }
