@@ -1,17 +1,32 @@
+'use strict';
 
-// Wave Surfer JS - Audio Player 
-var wavesurfer = WaveSurfer.create({
-    container: '#waveform',
-    waveColor: 'violet',
-    progressColor: 'purple'
-});
+// Create an instance
+var wavesurfer;
 
-// Loading the Audio 
+// Init & load audio file
+document.addEventListener('DOMContentLoaded', function() {
+    // Init
+    wavesurfer = WaveSurfer.create({
+        container: document.querySelector('#waveform'),
+        waveColor: 'violet',
+        progressColor: 'purple',
+        backend: 'MediaElement',
+        mediaControls: false
+    });
 
-wavesurfer.load('../assets/audio/rain.ogg');
+    wavesurfer.once('ready', function() {
+        console.log('Ready to go ');
+    });
 
-// On "Ready", Play the Audio
+    wavesurfer.on('error', function(e) {
+        console.warn(e);
+    });
 
-wavesurfer.on('ready', function () {
-    wavesurfer.play();
+    // Load audio from URL
+    wavesurfer.load('../assets/audio/rain.ogg');
+
+    // toggle play button
+    document
+        .querySelector('[data-action="play"]')
+        .addEventListener('click', wavesurfer.playPause.bind(wavesurfer));
 });
