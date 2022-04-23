@@ -18,6 +18,13 @@
   <!-- Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- WaveSurfer JS (Audio Player) -->
+  <script src="https://unpkg.com/wavesurfer.js/dist/wavesurfer.js"></script>
+  <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.regions.js"></script>
+
+  <script src="js/audioplayer.js"></script>
+
+
 </head>
 
 
@@ -48,12 +55,25 @@
 
 <!-- Main Content Section -->
 <div class="container">
-  
-  <!-- Audio Player -->
-  <div class="row m-2">
+
+  <div class="row m-2 p-2">
+
     <div class="col-12">
-      <div id="waveform"></div>
+      <!-- Wave Surfer Audio Player -->
+      <div id="waveform">
+      </div>
+      <!-- Audio Player Controls -->
+      <div class="controls">
+        <button class="btn btn-primary" data-action="play">
+          <i class="glyphicon glyphicon-play"></i>
+          Play
+          /
+          <i class="glyphicon glyphicon-pause"></i>
+          Pause
+        </button>
+      </div>
     </div>
+
   </div>
 
 
@@ -72,7 +92,7 @@
             <a id="electricLayer" href="#electricFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Electric</a>
             <a id="midiLayer" href="#midiFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Midi</a>
         </div>
-        
+
           <!-- Vocals Layer -->
           <a href="#vocalsLayer" class="list-group-item list-group-item-action list-group-item-darkest" data-bs-toggle="collapse">Vocals</a>
           <div id="vocalsLayer" class="list-group list-group-flush collapse" data-bs-parent="#audioGroupLayer">
@@ -88,32 +108,32 @@
               <a id="femaleDryVocals" href="#femaleDryVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Dry</a>
               <a id="femaleWetVocals" href="#femaleWetVocalFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Wet</a>
             </div>
-              
-            
-            
+
+
+
         </div>
-        
+
         <!-- Piano Layer -->
           <a href="#pianoLayer" class="list-group-item list-group-item-action list-group-item-darkest" data-bs-toggle="collapse">Piano</a>
           <div id="pianoLayer" class="list-group list-group-flush collapse" data-bs-parent="#audioGroupLayer">
             <a id="rhodesLayer" href="#rhodesFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Rhodes</a>
             <a id="spinetLayer" href="#spinetFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Spinet</a>
         </div>
-          
-          
+
+
           <!-- Drums Layer -->
           <a href="#drumsLayer" class="list-group-item list-group-item-action list-group-item-darkest" data-bs-toggle="collapse">Drums</a>
           <div id="drumsLayer" class="list-group list-group-flush collapse" data-bs-parent="#audioGroupLayer">
-            
+
             <!-- Drums Sub Categories / Layers -->
             <a id="cymbalsLayer" href="#cymbalsFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Cymbals</a>
             <a id="hatsLayer" href="#hatsFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Hats</a>
             <a id="kicksLayer" href="#kicksFiles" class="list-group-item list-group-item-action" data-bs-toggle="collapse">Kicks</a>
         </div>
-          
+
       </div>
       <!-- End Menu / Audio Layer Group Menu -->
-   
+
     </div>
 
       <!-- Audio Files  Corresponding to Assorted Audio Layer Menu -->
@@ -125,7 +145,7 @@
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
         </div>
-        
+
         <div id="hatsFiles" class="collapse" data-bs-parent="#audioFileLayer">
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
@@ -133,9 +153,9 @@
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
-          
+
         </div>
-        
+
         <div id="kicksFiles" class="collapse" data-bs-parent="#audioFileLayer">
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
@@ -148,8 +168,8 @@
             <span class="material-symbols-outlined">description</span>
         </div>
         <!-- End Drums Files -->
-        
-        
+
+
         <!-- Vocals Files  -->
         <!-- Male Vocal Files -->
         <div id="maleDryVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
@@ -157,7 +177,7 @@
             <span class="material-symbols-outlined">description</span>
         </div>
         <div id="maleWetVocalFiles" class="collapse" data-bs-parent="#audioFileLayer">
-             
+
           <span class="material-symbols-outlined">description</span>
           <span class="material-symbols-outlined">description</span>
         </div>
@@ -172,8 +192,8 @@
            <span class="material-symbols-outlined">description</span>
         </div>
         <!-- End Vocal Files -->
-        
-        
+
+
         <!-- Guitar Files  -->
         <div id="acousticFiles" class="collapse" data-bs-parent="#audioFileLayer">
             <span class="material-symbols-outlined">description</span>
@@ -191,8 +211,8 @@
             <span class="material-symbols-outlined">description</span>
         </div>
         <!-- End Guitar Files -->
-        
-        
+
+
         <!-- Piano Files  -->
         <div id="rhodesFiles" class="collapse" data-bs-parent="#audioFileLayer">
             <span class="material-symbols-outlined">description</span>
@@ -206,19 +226,19 @@
             <span class="material-symbols-outlined">description</span>
             <span class="material-symbols-outlined">description</span>
         </div>
- 
+
       </div>
 
-  </div> 
+  </div>
   <!-- End Assorted Audio Layer -->
-  
-  
-  
+
+
+
   <div class="row">
   </div>
-  
-  
-  
+
+
+
 </div>
 
 <!-- Footer -->
@@ -248,13 +268,6 @@
 
 <!-- Bootstrap 5 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  
-<!-- WaveSurfer JS (Audio Player) -->
-<script src="https://unpkg.com/wavesurfer.js"></script>
-
-<!-- External Script *in js directory* -->
-<script src="js/audioplayer.js"></script>
-<script src="js/script.js"></script>
 
 </body>
 </html>
