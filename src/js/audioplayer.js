@@ -15,15 +15,34 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     wavesurfer.once('ready', function() {
-        console.log('Ready to go ');
+        console.log('WaveSurfer Audio player successful');
     });
 
     wavesurfer.on('error', function(e) {
         console.warn(e);
     });
 
+    const audioBtn = document.getElementById("controlAudioBtn");
+
+    // Change Button Icon on Play
+    wavesurfer.on('play', function() {
+        audioBtn.classList.replace("fa-play-circle-o", "fa-pause-circle-o");
+    });
+
+    // Change Button Icon on Pause
+    wavesurfer.on('pause', function() {
+        audioBtn.classList.replace("fa-pause-circle-o", "fa-play-circle-o");
+    });
+
+    // If Button Icon was on pause when the song ended, reset it
+    wavesurfer.on('finish', function() {
+      if (audioBtn.classList == "fa-pause-circle-o") {
+        audioBtn.classList.replace("fa-pause-circle-o", "fa-play-circle-o");
+      }
+    });
+
     // Load audio from URL
-    wavesurfer.load('../tmp/audio/rain.ogg');
+    wavesurfer.load('https://raw.githubusercontent.com/Dixon3991/comp/main/src/tmp/audio/thunder.wav');
 
     // toggle play button
     document
