@@ -1,25 +1,83 @@
-:root {
-  --JetBlack: #343434;
-  --Onyx: #353935;
-  --MatteBlack: #28282B;
-  --Licorice: #1B1212;
-  --OffWhite: #FAF9F6;
-  --Whitest: #fff;
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+  min-height:100%;
+  font: Roboto 14px;
 }
 
 
+
+:root {
+  --MatteBlackOne: #020202;
+  --MatteBlackTwo: #0c0c0d;
+  --MatteBlackThree: #151517;
+  --MatteBlackFour: #1f1f21;
+  --MatteBlackFive: #28282b;
+  --MatteBlackSix: #313135;
+  --MatteBlackSeven: #3b3b3f;
+  --MatteBlackEight: #444449;
+  --MatteBlackNine: #4e4e54;
+  --MatteBlackTen: #57575e;
+  --MatteBlackEleven: #616168;
+  --MatteBlackTwelve: #6a6a72;
+  --MatteBlackThirteen: #74747c;
+  --MatteWhiteOne: #d9d9db;
+  --MatteWhiteTwo: #ededee;
+  --MatteWhite: #f7f7f8;
+}
+
+/* Assorted Audio Menu */
+
 .list-group-item-darkest {
-  background-color: var(--Onyx);
+  background-color: var(--MatteBlackTwo);
   border-top-width: 1px;
   border-top-style: solid;
-  border-color: var(--MatteBlack);
-  color: var(--OffWhite);
+  border-color: var(--MatteBlackOne);
+  color: var(--MatteWhite);
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .list-group-item-darkest:hover {
-  background-color: var(--MatteBlack);
-  border-color: var(--Licorice);
-  color: var(--Whitest);
+  background-color: var(--MatteBlackThree);
+  border-color: var(--MatteBlackFive);
+  color: var(--MatteWhiteOne);
+}
+
+
+
+.list-group-item-sub-darkest {
+  background-color: var(--MatteBlackFour);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--MatteBlackSix);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--MatteWhiteTwo);
+}
+
+
+.list-group-item-sub-darkest:hover {
+  background-color: var(--MatteBlackFive);
+  border-color: var(--MatteBlackFour);
+  color: var(--MatteWhite);
+}
+
+/* Sub Categories of Assorted Audio (Menu) */
+
+.list-group-item-sub {
+  background-color: var(--MatteBlackEight);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--MatteBlackSix);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--MatteWhiteTwo);
+}
+
+.list-group-item-sub:hover {
+  background-color: var(--MatteBlackTen);
+  border-color: var(--MatteBlackSeven);
+  color: var(--MatteWhite);
 }
