@@ -1,0 +1,428 @@
+C:.
+├───CymaticsDeluxeLofiCollection-V1-r8u
+│   ├───Cymatics - Deluxe Lofi Collection
+│   │   ├───Basses
+│   │   │   ├───808
+│   │   │   ├───Bass Guitar
+│   │   │   └───Synth
+│   │   ├───Drum Loops
+│   │   │   ├───Full Drum Loops
+│   │   │   ├───Hihat Loops
+│   │   │   ├───Percussion Loops
+│   │   │   └───Top Drum Loops
+│   │   ├───Drum One Shots
+│   │   │   ├───Claps
+│   │   │   ├───Cymbals
+│   │   │   │   ├───Crashes
+│   │   │   │   ├───Hihats - Closed
+│   │   │   │   ├───Hihats - Open
+│   │   │   │   └───Rides
+│   │   │   ├───Kicks
+│   │   │   ├───Percussion
+│   │   │   ├───Snaps
+│   │   │   └───Snares
+│   │   ├───FX
+│   │   ├───Melodics
+│   │   │   ├───E Piano
+│   │   │   │   └───Loop Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 2 - 70 BPM F Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 3 - 70 BPM A Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 4 - 70 BPM A# Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 5 - 80 BPM E Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 6 - 80 BPM G# Maj Stems
+│   │   │   │       └───Cymatics - Deluxe Lofi E Piano Melody 7 - 110 BPM A# Maj Stems
+│   │   │   ├───Guitars
+│   │   │   │   └───Loop Stems
+│   │   │   │       └───Cymatics - Deluxe Lofi Guitar 14 - 90 BPM G Maj Stems
+│   │   │   ├───Piano
+│   │   │   │   └───Loop Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Piano Melody 1 - 70 BPM F Min Ste,s
+│   │   │   │       ├───Cymatics - Deluxe Lofi Piano Melody 2 - 70 BPM F# Min Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Piano Melody 7 - 75 BPM D Min Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Piano Melody 8 - 85 BPM A# Maj Stems
+│   │   │   │       └───Cymatics - Deluxe Lofi Piano Melody 9 - 90 BPM F Maj Stems
+│   │   │   ├───Synth
+│   │   │   │   └───Loop Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 1 - 70 BPM G# Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 2 - 75 BPM C Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 3 - 75 BPM D Min Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 4 - 80 BPM C Maj Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 5 - 80 BPM C Min Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 6 - 80 BPM G Min Stems
+│   │   │   │       ├───Cymatics - Deluxe Lofi Synth Melody 7 - 80 BPM G# Maj Stems
+│   │   │   │       └───Cymatics - Deluxe Lofi Synth Melody 9 - 95 BPM D# Maj Stems
+│   │   │   └───Various
+│   │   │       └───Loop Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 10 - 90 BPM F Min Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 11 - 90 BPM G# Min Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 12 - 90 BPM A Min Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 13 - 90 BPM B Maj Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 14 - 100 BPM C Min Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 2 - 80 BPM C# Maj Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 3 - 80 BPM D Maj Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 5 - 80 BPM F Min Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 6 - 80 BPM G# Maj Stems
+│   │   │           ├───Cymatics - Deluxe Lofi Various Melody 7 - 80 BPM A Min Stems
+│   │   │           └───Cymatics - Deluxe Lofi Various Melody 9 - 90 BPM C# Min Stems
+│   │   ├───MIDI
+│   │   └───Vocals
+│   └───__MACOSX
+│       └───Cymatics - Deluxe Lofi Collection
+│           ├───Basses
+│           │   ├───808
+│           │   ├───Bass Guitar
+│           │   └───Synth
+│           ├───Drum Loops
+│           │   ├───Full Drum Loops
+│           │   ├───Hihat Loops
+│           │   ├───Percussion Loops
+│           │   └───Top Drum Loops
+│           ├───Drum One Shots
+│           │   ├───Claps
+│           │   ├───Cymbals
+│           │   │   ├───Crashes
+│           │   │   ├───Hihats - Closed
+│           │   │   ├───Hihats - Open
+│           │   │   └───Rides
+│           │   ├───Kicks
+│           │   ├───Percussion
+│           │   ├───Snaps
+│           │   └───Snares
+│           ├───FX
+│           ├───Melodics
+│           │   ├───E Piano
+│           │   │   └───Loop Stems
+│           │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 2 - 70 BPM F Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 3 - 70 BPM A Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 4 - 70 BPM A# Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 5 - 80 BPM E Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi E Piano Melody 6 - 80 BPM G# Maj Stems
+│           │   │       └───Cymatics - Deluxe Lofi E Piano Melody 7 - 110 BPM A# Maj Stems
+│           │   ├───Guitars
+│           │   │   └───Loop Stems
+│           │   │       └───Cymatics - Deluxe Lofi Guitar 14 - 90 BPM G Maj Stems
+│           │   ├───Piano
+│           │   │   └───Loop Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Piano Melody 1 - 70 BPM F Min Ste,s
+│           │   │       ├───Cymatics - Deluxe Lofi Piano Melody 2 - 70 BPM F# Min Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Piano Melody 7 - 75 BPM D Min Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Piano Melody 8 - 85 BPM A# Maj Stems
+│           │   │       └───Cymatics - Deluxe Lofi Piano Melody 9 - 90 BPM F Maj Stems
+│           │   ├───Synth
+│           │   │   └───Loop Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 1 - 70 BPM G# Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 2 - 75 BPM C Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 3 - 75 BPM D Min Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 4 - 80 BPM C Maj Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 5 - 80 BPM C Min Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 6 - 80 BPM G Min Stems
+│           │   │       ├───Cymatics - Deluxe Lofi Synth Melody 7 - 80 BPM G# Maj Stems
+│           │   │       └───Cymatics - Deluxe Lofi Synth Melody 9 - 95 BPM D# Maj Stems
+│           │   └───Various
+│           │       └───Loop Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 10 - 90 BPM F Min Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 11 - 90 BPM G# Min Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 12 - 90 BPM A Min Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 13 - 90 BPM B Maj Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 14 - 100 BPM C Min Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 2 - 80 BPM C# Maj Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 3 - 80 BPM D Maj Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 5 - 80 BPM F Min Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 6 - 80 BPM G# Maj Stems
+│           │           ├───Cymatics - Deluxe Lofi Various Melody 7 - 80 BPM A Min Stems
+│           │           └───Cymatics - Deluxe Lofi Various Melody 9 - 90 BPM C# Min Stems
+│           ├───MIDI
+│           └───Vocals
+├───CymaticsDeluxeMIDICollection-V1-t6y
+│   ├───Cymatics - Deluxe MIDI Collection
+│   │   ├───Hihat MIDI
+│   │   │   ├───Classic
+│   │   │   └───Modern
+│   │   └───Melody MIDI
+│   │       ├───Dark
+│   │       ├───Happy
+│   │       ├───Nostalgic
+│   │       ├───Sad
+│   │       ├───Triumphant
+│   │       └───Various
+│   └───__MACOSX
+│       └───Cymatics - Deluxe MIDI Collection
+│           ├───Hihat MIDI
+│           │   ├───Classic
+│           │   └───Modern
+│           └───Melody MIDI
+│               ├───Dark
+│               ├───Happy
+│               ├───Nostalgic
+│               ├───Sad
+│               ├───Triumphant
+│               └───Various
+├───CymaticsDeluxeSerumCollection-V1-f7y
+│   ├───Cymatics - Deluxe Serum Collection
+│   └───__MACOSX
+│       └───Cymatics - Deluxe Serum Collection
+├───CymaticsDeluxeVocalCollection-V4-y7r
+│   ├───Cymatics - Deluxe Vocal Collection
+│   │   ├───Acapellas
+│   │   │   ├───Cymatics - Blame - 100 BPM G Min
+│   │   │   │   ├───Dry
+│   │   │   │   └───Wet
+│   │   │   ├───Cymatics - Found My Way - 130 BPM C Min
+│   │   │   │   ├───Dry
+│   │   │   │   └───Wet
+│   │   │   ├───Cymatics - On My Way - 90 BPM C Min
+│   │   │   │   ├───Dry
+│   │   │   │   └───Wet
+│   │   │   └───Cymatics - Time - 160 BPM B Min
+│   │   │       ├───Dry
+│   │   │       └───Wet
+│   │   ├───Ad Libs
+│   │   │   ├───Female
+│   │   │   │   ├───Dry
+│   │   │   │   └───Wet
+│   │   │   └───Male
+│   │   │       ├───Dry
+│   │   │       └───Wet
+│   │   ├───Chants
+│   │   │   ├───Dry
+│   │   │   └───Processed
+│   │   ├───Pre-Drop Vocals
+│   │   │   ├───Dry
+│   │   │   └───Processed
+│   │   ├───Reggae Vocals
+│   │   │   ├───Dry
+│   │   │   └───Processed
+│   │   ├───Sung Phrases
+│   │   │   ├───Female
+│   │   │   │   ├───Dry
+│   │   │   │   └───Wet
+│   │   │   └───Male
+│   │   │       ├───Dry
+│   │   │       └───Wet
+│   │   ├───Tonal One Shots
+│   │   ├───Vocal Chops
+│   │   │   ├───EDM
+│   │   │   ├───Lofi
+│   │   │   ├───Pop
+│   │   │   └───Trap
+│   │   └───Vocal FX
+│   └───__MACOSX
+│       └───Cymatics - Deluxe Vocal Collection
+│           ├───Acapellas
+│           │   ├───Cymatics - Blame - 100 BPM G Min
+│           │   │   ├───Dry
+│           │   │   └───Wet
+│           │   ├───Cymatics - Found My Way - 130 BPM C Min
+│           │   │   ├───Dry
+│           │   │   └───Wet
+│           │   ├───Cymatics - On My Way - 90 BPM C Min
+│           │   │   ├───Dry
+│           │   │   └───Wet
+│           │   └───Cymatics - Time - 160 BPM B Min
+│           │       ├───Dry
+│           │       └───Wet
+│           ├───Ad Libs
+│           │   ├───Female
+│           │   │   ├───Dry
+│           │   │   └───Wet
+│           │   └───Male
+│           │       ├───Dry
+│           │       └───Wet
+│           ├───Chants
+│           │   ├───Dry
+│           │   └───Processed
+│           ├───Pre-Drop Vocals
+│           │   ├───Dry
+│           │   └───Processed
+│           ├───Reggae Vocals
+│           │   ├───Dry
+│           │   └───Processed
+│           ├───Sung Phrases
+│           │   ├───Female
+│           │   │   ├───Dry
+│           │   │   └───Wet
+│           │   └───Male
+│           │       ├───Dry
+│           │       └───Wet
+│           ├───Tonal One Shots
+│           ├───Vocal Chops
+│           │   ├───EDM
+│           │   ├───Lofi
+│           │   ├───Pop
+│           │   └───Trap
+│           └───Vocal FX
+├───CymaticsLofiTexturesPack-V1-f7x
+│   └───Cymatics - Lofi Textures Pack
+│       ├───Tonal Ambience
+│       ├───Various Textures
+│       └───Vinyl FX
+├───CymaticsUltimateLofiCollection-V1-m0k
+│   └───Cymatics - Ultimate Lofi Collection
+│       ├───Cymatics - Lofi Drums Collection
+│       │   ├───Drums - Loops
+│       │   │   ├───Drum Fills
+│       │   │   ├───Full Drum Loops
+│       │   │   ├───Hihat Loops
+│       │   │   └───Top Drum Loops
+│       │   └───Drums - One Shots
+│       │       ├───Claps
+│       │       ├───Cymbals
+│       │       │   ├───Crashes
+│       │       │   ├───Hihats - Closed
+│       │       │   ├───Hihats - Open
+│       │       │   └───Rides
+│       │       ├───Kicks
+│       │       ├───Snaps
+│       │       └───Snares
+│       ├───Cymatics - Lofi Foley Percussion
+│       ├───Cymatics - Lofi Melodies and Vocals
+│       │   ├───Basses
+│       │   │   ├───808s
+│       │   │   ├───Analog
+│       │   │   └───Electric Bass Guitar
+│       │   ├───Guitar Loops
+│       │   │   ├───Full Guitar Loops
+│       │   │   └───Topline Melody Loops
+│       │   ├───Melody Loops
+│       │   │   ├───Full Melody Loops
+│       │   │   └───Topline Melody Loops
+│       │   ├───One Shots
+│       │   └───Vocal Loops
+│       ├───Cymatics - Lofi MIDI Expansion
+│       └───Cymatics - Lofi Synth Presets
+│           ├───Massive
+│           ├───Serum
+│           └───Sylenth
+│               ├───Bank
+│               └───Individual
+├───Drums
+│   ├───Cymbals
+│   ├───Hats
+│   ├───Kicks
+│   ├───Kits
+│   │   ├───Groove Bias
+│   │   ├───HQ Funk Kit
+│   │   ├───HQ Jazz Kit
+│   │   ├───HQ Metal Kit
+│   │   ├───HQ Rock Kit
+│   │   ├───Jayce Lewis
+│   │   ├───Rock
+│   │   └───Thrower
+│   ├───Percussion
+│   ├───SFX
+│   ├───Snares
+│   └───Toms
+├───Drums (ModeAudio)
+│   ├───Claps
+│   ├───Cymbals
+│   ├───Foley
+│   ├───Hi Hats
+│   ├───Kicks
+│   ├───Percussion
+│   ├───Rims
+│   ├───SFX
+│   ├───Shakers
+│   ├───Snares
+│   └───Toms
+├───FLEX
+│   └───Packs
+├───Instruments
+│   ├───Bass
+│   ├───Guitar
+│   ├───Keyboard
+│   └───Orchestral
+├───Legacy
+│   ├───Drums
+│   │   ├───Dance
+│   │   ├───FPC
+│   │   │   ├───Cymbals
+│   │   │   ├───Hi Hats
+│   │   │   ├───Kick Drums
+│   │   │   ├───Other Percussion
+│   │   │   ├───SideStick_Rims
+│   │   │   ├───Snare Drums
+│   │   │   └───Toms
+│   │   ├───HipHop
+│   │   ├───Kits
+│   │   │   ├───Drum Kit 01
+│   │   │   ├───Drum Kit 02
+│   │   │   ├───Drum Kit 03
+│   │   │   ├───Drum Kit 04
+│   │   │   ├───Drum Kit 05
+│   │   │   ├───Drum Kit 06
+│   │   │   ├───Drum Kit 07
+│   │   │   └───Drum Kit 08
+│   │   ├───RealDrumkits
+│   │   └───Vintage
+│   ├───FX
+│   ├───Instruments
+│   │   ├───Bass
+│   │   ├───Choirs
+│   │   ├───Guitar
+│   │   │   ├───Bass
+│   │   │   │   ├───FLStudio Bass 01
+│   │   │   │   └───FLStudio Bass 02
+│   │   │   └───Guitar
+│   │   │       ├───Acoustic Guitar 01
+│   │   │       └───Electric Guitar 01
+│   │   ├───Hits
+│   │   ├───Orchestral
+│   │   │   ├───Strings
+│   │   │   ├───Tenor Sax
+│   │   │   └───Trombone
+│   │   ├───Pads
+│   │   ├───Percs
+│   │   ├───Piano
+│   │   │   ├───Piano 1
+│   │   │   └───Piano 2
+│   │   └───Strings
+│   ├───Loops
+│   └───Vocals
+├───Loops
+├───New folder
+├───Risers
+├───Sample Like A Boss
+│   ├───1. Sample Like a Boss
+│   │   ├───1. Music Samples
+│   │   ├───2. Vocal Samples
+│   │   ├───3. Hooks
+│   │   └───Cortex Cut Samples
+│   ├───10. Extra
+│   ├───10.5 Easy Video Kit
+│   │   └───Gifs
+│   ├───2. Clams Casino Cuts
+│   │   └───Extra
+│   ├───3. Drums
+│   │   ├───808
+│   │   ├───90_Lofi Kit
+│   │   ├───93_Lofi Kit
+│   │   ├───Hat
+│   │   ├───Kick
+│   │   ├───Lofi Drums
+│   │   ├───Perc, Crash & Ride
+│   │   └───Snare
+│   ├───4. Drum Breaks
+│   ├───5. Movies n stuff
+│   ├───6. Music Loops
+│   ├───7. Sfx
+│   │   ├───Dogs
+│   │   └───Glitch
+│   ├───7.5 Anime Sfx
+│   │   ├───Dragon Ball Z fx
+│   │   ├───From utube
+│   │   └───Horror
+│   ├───8. Vinyls
+│   ├───9. Construct (Modern)
+│   │   ├───Flower
+│   │   └───Till I'm Dead (Drums)
+│   ├───Bassment Exclusive Recordings
+│   │   ├───Astral Vocal Loops
+│   │   ├───Bassments Astal Loops
+│   │   └───The Crow
+│   └───LucidDreams_Mini_SP
+├───SFX
+├───Shapes
+│   ├───HQ
+│   ├───Misc
+│   └───Sytrus
+└───Vocals
