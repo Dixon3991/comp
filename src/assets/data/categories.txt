@@ -1,5 +1,5 @@
 C:.
-├───CymaticsDeluxeLofiCollection-V1-r8u
+[1].CymaticsDeluxeLofiCollection-V1-r8u
 │   ├───Cymatics - Deluxe Lofi Collection
 │   │   ├───Basses
 │   │   │   ├───808
@@ -133,7 +133,7 @@ C:.
 │           │           └───Cymatics - Deluxe Lofi Various Melody 9 - 90 BPM C# Min Stems
 │           ├───MIDI
 │           └───Vocals
-├───CymaticsDeluxeMIDICollection-V1-t6y
+[1].CymaticsDeluxeMIDICollection-V1-t6y
 │   ├───Cymatics - Deluxe MIDI Collection
 │   │   ├───Hihat MIDI
 │   │   │   ├───Classic
@@ -157,11 +157,11 @@ C:.
 │               ├───Sad
 │               ├───Triumphant
 │               └───Various
-├───CymaticsDeluxeSerumCollection-V1-f7y
+[1].CymaticsDeluxeSerumCollection-V1-f7y
 │   ├───Cymatics - Deluxe Serum Collection
 │   └───__MACOSX
 │       └───Cymatics - Deluxe Serum Collection
-├───CymaticsDeluxeVocalCollection-V4-y7r
+[1].CymaticsDeluxeVocalCollection-V4-y7r
 │   ├───Cymatics - Deluxe Vocal Collection
 │   │   ├───Acapellas
 │   │   │   ├───Cymatics - Blame - 100 BPM G Min
@@ -251,12 +251,12 @@ C:.
 │           │   ├───Pop
 │           │   └───Trap
 │           └───Vocal FX
-├───CymaticsLofiTexturesPack-V1-f7x
+[1].CymaticsLofiTexturesPack-V1-f7x
 │   └───Cymatics - Lofi Textures Pack
 │       ├───Tonal Ambience
 │       ├───Various Textures
 │       └───Vinyl FX
-├───CymaticsUltimateLofiCollection-V1-m0k
+[1].CymaticsUltimateLofiCollection-V1-m0k
 │   └───Cymatics - Ultimate Lofi Collection
 │       ├───Cymatics - Lofi Drums Collection
 │       │   ├───Drums - Loops
@@ -295,7 +295,7 @@ C:.
 │           └───Sylenth
 │               ├───Bank
 │               └───Individual
-├───Drums
+[1].Drums
 │   ├───Cymbals
 │   ├───Hats
 │   ├───Kicks
@@ -312,7 +312,7 @@ C:.
 │   ├───SFX
 │   ├───Snares
 │   └───Toms
-├───Drums (ModeAudio)
+[1].Drums (ModeAudio)
 │   ├───Claps
 │   ├───Cymbals
 │   ├───Foley
@@ -324,14 +324,14 @@ C:.
 │   ├───Shakers
 │   ├───Snares
 │   └───Toms
-├───FLEX
+[1].FLEX
 │   └───Packs
-├───Instruments
+[1].Instruments
 │   ├───Bass
 │   ├───Guitar
 │   ├───Keyboard
 │   └───Orchestral
-├───Legacy
+[1].Legacy
 │   ├───Drums
 │   │   ├───Dance
 │   │   ├───FPC
@@ -378,10 +378,10 @@ C:.
 │   │   └───Strings
 │   ├───Loops
 │   └───Vocals
-├───Loops
-├───New folder
-├───Risers
-├───Sample Like A Boss
+[1].Loops
+[1].New folder
+[1].Risers
+[1].Sample Like A Boss
 │   ├───1. Sample Like a Boss
 │   │   ├───1. Music Samples
 │   │   ├───2. Vocal Samples
@@ -420,8 +420,8 @@ C:.
 │   │   ├───Bassments Astal Loops
 │   │   └───The Crow
 │   └───LucidDreams_Mini_SP
-├───SFX
-├───Shapes
+[1].SFX
+[1].Shapes
 │   ├───HQ
 │   ├───Misc
 │   └───Sytrus
