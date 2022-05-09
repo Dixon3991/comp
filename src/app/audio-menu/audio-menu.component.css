@@ -1,0 +1,49 @@
+/* Assorted Audio Layer / Menu */
+
+#audioGroupLayer {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#audioGroupLayer > div > a[class^="list-group-item"] {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.list-group-item-darkest {
+  background-color: var(--WoodSmoke);
+  border-color: var(--BlackVoid);
+  color: var(--WhiteLilac);
+}
+
+.list-group-item-darkest:hover {
+  background-color: var(--Shark);
+  border-color: var(--WoodSmoke);
+  color: var(--GhostWhite);
+}
+
+.list-group-item-darkest:focus {
+  background-color: var(--Shark);
+  border-color: var(--WoodSmoke);
+  color: var(--GhostWhite);
+}
+
+
+/* Sub Categories of Assorted Audio (Menu) */
+
+.list-group-item-sub {
+  background-color: var(--Bastille);
+  border-color: var(--Shark);
+  color: var(--Solitude);
+}
+
+.list-group-item-sub:hover {
+  background-color: var(--BalticSea);
+  border-color: var(--GunPowder);
+  color: var(--GhostWhite);
+}
+
+.list-group-item-sub:focus {
+  background-color: var(--BalticSea);
+  border-color: var(--GunPowder);
+  color: var(--GhostWhite);
+}
