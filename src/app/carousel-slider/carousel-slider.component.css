@@ -1,0 +1,45 @@
+/* Carousel */
+.links > a {
+    background-color: deeppink;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.links > a:hover {
+    background-color: darkviolet;
+}
+
+.links > a:focus {
+    background-color: darkviolet;
+}
+
+.darkerviolet {
+    background-color: #9400d3;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    background-color: cornflowerblue;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.box .item {
+    flex: 0 0 300px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    scroll-snap-align: start;
+}
